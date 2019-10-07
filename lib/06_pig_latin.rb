@@ -27,3 +27,6 @@ def translate(string) #fait tourner le cas où il y a plusieurs mots
     a=string2.map { |n| n=translate2(n) }
     a.join(" ")
 end
+
+puts translate2 ("banana")
+puts translate2 ("eat pig")

@@ -19,6 +19,6 @@ def power (a,b)
 end
 
 def factorial (a)
-    Math.gamma(a+1)
+    Math.gamma(a+1) #formule pour les factoriels
 end
 

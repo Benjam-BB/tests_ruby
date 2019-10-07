@@ -27,5 +27,8 @@ def titleize (string)
             x
         end}.join(' ') 
 end
+#each_with_index sépare les élements et les place dans un index
+
+
 
 

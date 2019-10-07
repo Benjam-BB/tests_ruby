@@ -28,10 +28,10 @@ end
 
 def magic_array (array)
     array.flatten.sort.map{|x| x*2 }.delete_if{|x| x % 3 == 0}.uniq
-    #uniq keep onmy uniq numbers
+    #uniq garde unqiuement les valeurs uniques
     #flatten if differents arrays put all in the same
-    #sort to sort
-    #map lance une fonction derrière
+    #sort sert à classer dans l'ordre
+    #map prend chaque élément et lance une fonction derrière
     #d'abord chaque élément *2
     #on suprrime les multiples de 3 (modulo 3) 
 end
